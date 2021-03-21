@@ -52,7 +52,7 @@ h1{
 	justify-content: center;
 	font-size: 2rem;
 	font-style: italic;
-	font-weight: : bold;
+	font-weight:  bold;
 	font-family: 'roboto', sans sérif;
 	font-family: 'shrikhand',cursive;
 }
@@ -68,7 +68,7 @@ h1{
 .title_menu{
 	font-size: 2rem;
 	font-style: italic;
-	font-weight: : bold;
+	font-weight:  bold;
 	font-family: 'roboto', sans sérif;
 	font-family: 'shrikhand',cursive;
 }
@@ -78,6 +78,7 @@ h1{
 }
 .button{
 	background-color: white;
+	border: 1px solid;
 }
 .btn{
 	border-radius: 22px;
