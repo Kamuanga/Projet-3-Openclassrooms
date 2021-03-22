@@ -225,6 +225,14 @@ a.choice {
 footer {
   background-color: #353535;
   color: white;
+  padding-left: 15px;
+}
+h3{
+  padding-bottom: 15px;
+  font-family:'shrikhand',cursive;
+}
+.footer{
+  padding-bottom: 10px;
 }
 
 .partner {
