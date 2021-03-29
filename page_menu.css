@@ -47,6 +47,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+header{
+	height: 50px;
+}
 h1{
 	display: flex;
 	justify-content: center;
@@ -56,14 +59,20 @@ h1{
 	font-family: 'roboto', sans sérif;
 	font-family: 'shrikhand',cursive;
 }
+body{
+	background-color: rgb(246,246,246));
+}
 
 .arrow{
 	position: absolute;
-	top: 8%;
-	font-size: 2rem;
+	top: 1%;
+	font-size: 1.2rem;
 }
 .banner{
 	width: 100%;
+}
+.fa-heart{
+	float:right;
 }
 .title_menu{
 	font-size: 2rem;
@@ -76,22 +85,41 @@ h1{
 	text-align: center;
 	background-color:rgb(246,246,246);
 }
+h2{
+	font-family:'roboto',sans-serif;
+	font-size:1rem;
+}
 .button{
 	background-color: white;
-	border: 1px solid;
+    border: 1px solid white;
+    border-radius: 31px;
+    margin-top: 10px;
+	box-shadow: -1px -1px 2px -1px gray;
+	width: 90%;
+}
+.button__commander{
+	background-color: #FF79DA;
+}
+.menu_plat{
+	border-bottom: 2px solid rgb(155,225,208);
+	width: 10%;
 }
 .btn{
 	border-radius: 22px;
 	margin-bottom: 10px;
 }
-footer{
-	background-color: rgb(53,53,53);
-	color:white;
-	.partner{
-        text-decoration: none;
-	
-	.contact{
-		color: blue
-	}
-}
-}
+footer {
+	background-color: #353535;
+	color: white;
+  }
+  
+  .partner {
+	text-decoration: none;
+	color: white;
+  }
+  
+  .contact {
+	color: white;
+	text-decoration: none;
+  }
+  
