@@ -1,4 +1,5 @@
 @charset "UTF-8";
+<<<<<<< HEAD
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -58,6 +59,11 @@ header {
   border-top: 1px solid white;
   margin-top: 11px;
   height: 60px;
+=======
+header {
+  -webkit-box-shadow: 10px;
+          box-shadow: 10px;
+>>>>>>> 741e8d3e2d75a6dfa6a1006995c8c6400922571c
 }
 
 h1 {
@@ -103,6 +109,7 @@ h1 {
   background-color: #b666d8;
   color: white;
   font-size: 1rem;
+<<<<<<< HEAD
 }
 
 .heading__nav {
@@ -121,6 +128,26 @@ h1 {
   text-align: center;
   font-weight: bold;
 }
+=======
+}
+
+.icone_location {
+  width: 100%;
+  background-color: #eaf3ea;
+  text-align: center;
+}
+
+.fa-map-marker-alt {
+  position: absolute;
+}
+
+.test {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f6f6f6;
+}
+>>>>>>> 741e8d3e2d75a6dfa6a1006995c8c6400922571c
 
 p.presentation {
   color: grey;
@@ -176,6 +203,7 @@ a.choice {
 
 .number {
   position: absolute;
+<<<<<<< HEAD
 border-radius: 50%;
 border: 1px solid;
 width: 2%;
@@ -185,6 +213,15 @@ background-color: #9356DC;
 color: white;
 width: 10%;
 line-height: 2;
+=======
+  border-radius: 86%;
+  border: 1px solid;
+  width: 2%;
+  height: 6%;
+  left: 0%;
+  background-color: #9356DC;
+  color: white;
+>>>>>>> 741e8d3e2d75a6dfa6a1006995c8c6400922571c
 }
 
 .button {
