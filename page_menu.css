@@ -56,11 +56,11 @@ h1{
 	font-size: 2rem;
 	font-style: italic;
 	font-weight:  bold;
-	font-family: 'roboto', sans sérif;
+	font-family: 'roboto', sans-serif;
 	font-family: 'shrikhand',cursive;
 }
 body{
-	background-color: rgb(246,246,246));
+	background-color: rgb(246,246,246);
 }
 
 .arrow{
@@ -99,6 +99,7 @@ h2{
 }
 .button__commander{
 	background-color: #FF79DA;
+	display: flex;
 }
 .menu_plat{
 	border-bottom: 2px solid rgb(155,225,208);
