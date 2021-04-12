@@ -1,5 +1,4 @@
 @charset "UTF-8";
-<<<<<<< HEAD
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -55,7 +54,7 @@ table {
 }
 
 header {
-  border-bottom: 1px solid black;
+  border-bottom: 1px;
   border-top: 1px solid white;
   margin-top: 11px;
   height: 60px;
@@ -79,10 +78,9 @@ h1 {
 
 .icone_location {
   width: 100%;
-  background-color: #eaf3ea;
   text-align: center;
   line-height: 50px;
-  background-color: rgb(243,243,234);
+  background-color: rgb(234,234,234);
 }
 .fa-map-marker-alt{
   top: 13%;
@@ -96,10 +94,6 @@ h1 {
   right: 30px;
 }
 
-.main {
-  width: 100%;
-  height: 35px;
-}
 
 .nav {
   width: 90%;
@@ -108,6 +102,9 @@ h1 {
   background-color: #b666d8;
   color: white;
   font-size: 1rem;
+}
+.heading{
+  background-color: rgb(234,234,234);
 }
 
 .heading__nav {
@@ -119,15 +116,20 @@ h1 {
   font-size: 1rem;
 }
 .heading__header{
-  font-family: 'roboto',sans-serif;
+  font-family: 'shirkhand',sans-serif;
   font-size: 1.6rem;
   margin-top: 50px;
   margin-bottom: 15px;
   text-align: center;
   font-weight: bold;
 }
-=======
+.heading__presentation{
+	margin-top: 25px;
+	margin-bottom: 20px;
+	text-align: center;
 }
+
+
 
 .icone_location {
   width: 100%;
