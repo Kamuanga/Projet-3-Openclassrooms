@@ -46,6 +46,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+h2{
+	font-family:'shrikhand',sans-serif;
+}
+p{
+	font-family: sans-serif;
+}
  header{
 	border-bottom: 1px;
 	border-top:1px solid white;
@@ -83,6 +89,7 @@ background-color: rgb(234,234,234);
   margin-bottom: 15px;
   text-align: center;
   font-weight: bold;
+  padding: 50px 0px;
 }    
 
 .heading__presentation{
@@ -97,6 +104,10 @@ background-color: rgb(234,234,234);
 	background-color: rgb(234,234,234);
 }
 }
+h2{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 
 
 $color-primary: #9356DC;
@@ -107,7 +118,7 @@ $color-tertiary: #99E2D0;
 	width: 90%;
     height: 50px;
     border-radius: 22px 20px 22px 23px;
-    background-color: $color-primary;
+    background-color: $color-secondary;
     color: white;
     font-size: 1rem;
 }
@@ -133,7 +144,7 @@ article{
 }
 figure.picture{
 	width: 80%;
-	height: 10%;
+	height: 251px;
 	border: 2px solid white;
 	border-radius: 20px;
 	-webkit-box-shadow: 2px 1px 6px 5px rgba(0,0,0,0.22);
@@ -146,10 +157,7 @@ figure.picture{
 }
 figure.picture img{
 	width: 100%;
-	height: 80%;
-}
-a.choice{
-	text-decoration: none;
+	height: 66%;
 }
 .fa-heart{
 	position: relative;
@@ -158,7 +166,7 @@ a.choice{
 }
 
 .menu_container{
-	background-color:rgb(246,246,246);
+	background-color: rgb(246,246,246);
 	border: none;
 	padding: 15px;
 	text-align: center;
@@ -168,6 +176,7 @@ a.choice{
 	border-radius: 2rem;
 	width: 75%;
 	}
+
 .number {
 	position: absolute;
 	border-radius: 86%;
@@ -175,7 +184,7 @@ a.choice{
 	width: 2%;
 	height: 6%;
 	left: 0%;
-	background-color: #9356DC;
+	background-color: $color-primary;
 	color: white;
 	}
 .button{
