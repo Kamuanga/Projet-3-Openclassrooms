@@ -100,9 +100,13 @@ background-color: rgb(234,234,234);
 .icone_location{
 	width: 100%;
 	text-align: center;
-	line-height: 50px;
 	background-color: rgb(234,234,234);
-}
+	}
+
+.fa-map-marker-alt{
+	position: absolute;
+	top: 13%;
+   	left: 27%;
 }
 h2{
 	margin-top: 20px;
@@ -122,15 +126,6 @@ $color-tertiary: #99E2D0;
     color: white;
     font-size: 1rem;
 }
-
-
-.fa-map-marker-alt{
-    position: absolute;
-    
-}
-
-
-
 
 p.presentation{
 	color: grey;
@@ -231,7 +226,7 @@ footer{
 	font-size: 2rem;
 	font-style: italic;
 	font-weight: bold;
-	font-family: 'roboto', sans sérif;
+	font-family: 'roboto', sans-serif;
 	font-family: 'shrikhand',cursive;
 }
 .carte_menu{
