@@ -49,9 +49,7 @@ table {
 h2{
 	font-family:'shrikhand',sans-serif;
 }
-p{
-	font-family: sans-serif;
-}
+
  header{
 	border-bottom: 1px;
 	border-top:1px solid white;
@@ -67,10 +65,19 @@ h1{
 	line-height: 1px;
 }
 
-.fa-map-marker-alt{
-	top: 82px;
+.icone_location{
+	width: 100%;
+	text-align: center;
+	background-color: rgb(234,234,234);
+	height:49px;
+	.fa-map-marker-alt{
+	top: 84px;
 	left:27%;
 	position:absolute;	
+	}
+	p.paris_ville{
+		line-height: 45px;
+	}
 	}
 .heading{
 background-color: rgb(234,234,234);
@@ -85,7 +92,6 @@ background-color: rgb(234,234,234);
 .heading__header{
   font-family: 'shirkhand',sans-serif;
   font-size: 1.6rem;
-  margin-top: 50px;
   margin-bottom: 15px;
   text-align: center;
   font-weight: bold;
@@ -93,23 +99,15 @@ background-color: rgb(234,234,234);
 }    
 
 .heading__presentation{
-	margin-top: 25px;
 	margin-bottom: 20px;
 	text-align: center;
 }
-.icone_location{
-	width: 100%;
-	text-align: center;
-	background-color: rgb(234,234,234);
-	}
-
-.fa-map-marker-alt{
-	position: absolute;
-	top: 13%;
-   	left: 27%;
 }
+
+
+
 h2{
-	margin-top: 20px;
+	
 	margin-bottom: 20px;
 }
 
