@@ -44,7 +44,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: "";
+  content: '';
   content: none;
 }
 
@@ -54,7 +54,7 @@ table {
 }
 
 h2 {
-  font-family: "shrikhand", sans-serif;
+  font-family: 'shrikhand',sans-serif;
 }
 
 header {
@@ -65,11 +65,15 @@ header {
 }
 
 h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: 3rem;
   font-style: italic;
-  font-family: "shrikhand", cursive;
+  font-family: 'shrikhand',cursive;
   line-height: 1px;
 }
 
@@ -79,18 +83,21 @@ h1 {
   background-color: #eaeaea;
   height: 49px;
 }
+
 .icone_location .fa-map-marker-alt {
   top: 84px;
   left: 27%;
   position: absolute;
 }
+
 .icone_location p.paris_ville {
   line-height: 45px;
 }
 
 .heading {
-  background-color: #eaeaea;
+  background-color: #f6f6f6;
 }
+
 .heading .heading__nav {
   width: 90%;
   height: 50px;
@@ -99,14 +106,16 @@ h1 {
   color: white;
   font-size: 1rem;
 }
+
 .heading .heading__header {
-  font-family: "shirkhand", sans-serif;
+  font-family: 'shirkhand',sans-serif;
   font-size: 1.6rem;
   margin-bottom: 15px;
   text-align: center;
   font-weight: bold;
   padding: 50px 0px;
 }
+
 .heading .heading__presentation {
   margin-bottom: 20px;
   text-align: center;
@@ -130,8 +139,13 @@ p.presentation {
 }
 
 article {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .restaurant {
@@ -236,18 +250,22 @@ footer {
   font-size: 2rem;
   font-style: italic;
   font-weight: bold;
-  font-family: "roboto", sans-serif;
-  font-family: "shrikhand", cursive;
+  font-family: 'roboto', sans-serif;
+  font-family: 'shrikhand',cursive;
 }
 
 .carte_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .btn {
   border-radius: 22px;
   margin-bottom: 10px;
 }
-
 /*# sourceMappingURL=style.css.map */
