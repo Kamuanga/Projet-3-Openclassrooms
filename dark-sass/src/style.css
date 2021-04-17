@@ -74,7 +74,6 @@ h1 {
   font-size: 3rem;
   font-style: italic;
   font-family: 'shrikhand',cursive;
-  line-height: 1px;
 }
 
 .icone_location {
@@ -190,11 +189,12 @@ figure.picture img {
 
 .number {
   position: absolute;
-  border-radius: 86%;
+  border-radius: 50%;
   border: 1px solid;
-  width: 2%;
+  width: 11%;
   height: 6%;
-  left: 0%;
+  left: -5%;
+  line-height: 39px;
   background-color: #9356DC;
   color: white;
 }
