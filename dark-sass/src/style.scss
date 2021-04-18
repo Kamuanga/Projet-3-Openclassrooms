@@ -87,6 +87,7 @@ background-color: rgb(246,246,246);
 		background-color: #b666d8;
 		color: white;
 		font-size: 1rem;
+		margin-bottom:70px;
 }
 .heading__header{
   font-family: 'shirkhand',sans-serif;
@@ -102,18 +103,60 @@ background-color: rgb(246,246,246);
 	text-align: center;
 }
 }
+$color-primary: #9356DC;
+$color-secondary:#FF79DA;
+$color-tertiary: #99E2D0;
 
+.operation{
+	background-color: white;
+.fonctionnement{
+	margin-bottom: 50px;
+	font-size: 1.6rem;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+.menu_container{
+	background-color: rgb(246,246,246);
+	border: none;
+	padding: 15px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	border-radius: 2rem;
+	width: 75%;
+	}
+
+.number {
+	position: absolute;
+	border-radius: 50%;
+	border: 1px solid;
+	width: 11%;
+	height: 6%;
+	left: -5%;
+	line-height: 39px;
+	background-color: $color-primary;
+	color: white;
+	}
+}
 
 
 h2{
 	
 	margin-bottom: 20px;
 }
+.restaurant{
+	background-color: #f6f6f6;
+	.restaurants{
+		font-size: 1.6rem;
+		margin-top: 42px;
+		margin-bottom: 42px;
+		margin-left: 15px;
+	}
+}
 
 
-$color-primary: #9356DC;
-$color-secondary:#FF79DA;
-$color-tertiary: #99E2D0;
 
 .nav{
 	width: 90%;
@@ -157,29 +200,6 @@ figure.picture img{
 	left: 90%;
 }
 
-.menu_container{
-	background-color: rgb(246,246,246);
-	border: none;
-	padding: 15px;
-	text-align: center;
-	display: inline-block;
-	font-size: 16px;
-	margin: 4px 2px;
-	border-radius: 2rem;
-	width: 75%;
-	}
-
-.number {
-	position: absolute;
-	border-radius: 50%;
-	border: 1px solid;
-	width: 11%;
-	height: 6%;
-	left: -5%;
-	line-height: 39px;
-	background-color: $color-primary;
-	color: white;
-	}
 .button{
 	text-decoration: none;
 	color: black;

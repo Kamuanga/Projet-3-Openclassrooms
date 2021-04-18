@@ -104,6 +104,7 @@ h1 {
   background-color: #b666d8;
   color: white;
   font-size: 1rem;
+  margin-bottom: 70px;
 }
 
 .heading .heading__header {
@@ -120,8 +121,54 @@ h1 {
   text-align: center;
 }
 
+.operation {
+  background-color: white;
+}
+
+.operation .fonctionnement {
+  margin-bottom: 50px;
+  font-size: 1.6rem;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.operation .menu_container {
+  background-color: #f6f6f6;
+  border: none;
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 2rem;
+  width: 75%;
+}
+
+.operation .number {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid;
+  width: 11%;
+  height: 6%;
+  left: -5%;
+  line-height: 39px;
+  background-color: #9356DC;
+  color: white;
+}
+
 h2 {
   margin-bottom: 20px;
+}
+
+.restaurant {
+  background-color: #f6f6f6;
+}
+
+.restaurant .restaurants {
+  font-size: 1.6rem;
+  margin-top: 42px;
+  margin-bottom: 42px;
+  margin-left: 15px;
 }
 
 .nav {
@@ -173,30 +220,6 @@ figure.picture img {
   position: relative;
   top: -24px;
   left: 90%;
-}
-
-.menu_container {
-  background-color: #f6f6f6;
-  border: none;
-  padding: 15px;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  border-radius: 2rem;
-  width: 75%;
-}
-
-.number {
-  position: absolute;
-  border-radius: 50%;
-  border: 1px solid;
-  width: 11%;
-  height: 6%;
-  left: -5%;
-  line-height: 39px;
-  background-color: #9356DC;
-  color: white;
 }
 
 .button {
