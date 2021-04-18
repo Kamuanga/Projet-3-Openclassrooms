@@ -98,13 +98,14 @@ h1 {
 }
 
 .heading .heading__nav {
-  width: 90%;
+  width: 65%;
   height: 50px;
   border-radius: 22px 20px 22px 23px;
   background-color: #b666d8;
   color: white;
   font-size: 1rem;
   margin-bottom: 70px;
+  margin-left: 57px;
 }
 
 .heading .heading__header {
