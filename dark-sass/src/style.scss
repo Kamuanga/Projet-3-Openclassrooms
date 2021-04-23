@@ -79,8 +79,8 @@ h1{
 	}
 	}
 .heading{
-background-color: rgb(246,246,246);
-.heading__nav {
+	background-color: rgb(246,246,246);
+	.heading__nav {
 		width: 65%;
 		height: 50px;
 		border-radius: 22px 20px 22px 23px;
@@ -89,17 +89,17 @@ background-color: rgb(246,246,246);
 		font-size: 1rem;
 		margin-bottom:70px;
 		margin-left:57px;
-}
-.heading__header{
+		}
+	.heading__header{
   font-family: 'shirkhand',sans-serif;
   font-size: 1.6rem;
   margin-bottom: 15px;
   text-align: center;
   font-weight: bold;
   padding: 50px 0px;
-}    
+	}    
 
-.heading__presentation{
+	.heading__presentation{
 	margin-bottom: 20px;
 	text-align: center;
 }
@@ -110,14 +110,14 @@ $color-tertiary: #99E2D0;
 
 .operation{
 	background-color: white;
-.fonctionnement{
+	.fonctionnement{
 	margin-bottom: 50px;
 	font-size: 1.6rem;
 	margin-top: 50px;
 	margin-left: 20px;
-}
+	}
 
-.menu_container{
+	.menu_container{
 	background-color: rgb(246,246,246);
 	border: none;
 	padding: 15px;
@@ -129,7 +129,7 @@ $color-tertiary: #99E2D0;
 	width: 75%;
 	}
 
-.number {
+	.number {
 	position: absolute;
 	border-radius: 50%;
 	border: 1px solid;
@@ -194,6 +194,7 @@ figure.picture{
 figure.picture img{
 	width: 100%;
 	height: 66%;
+	object-fit: cover;
 }
 .fa-heart{
 	position: relative;
@@ -223,14 +224,17 @@ figure.picture img{
 footer{
 	background-color: rgb(53,53,53);
 	color: white;
-}
+	padding-left:15px;
+	text-decoration: none;
+	color:white;
 .partner{
 	text-decoration: none;
-	color: white;
+	color:white;
 }
 .contact{
-	color: white;
 	text-decoration: none;
+	color:white;
+}
 }
 /*Css palette du goût*/
 .arrow{

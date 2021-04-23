@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -44,7 +43,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -58,19 +57,16 @@ header {
 }
 
 h1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 2rem;
+  justify-content: center;
+  font-size: 1.6rem;
   font-style: italic;
   font-weight: bold;
-  font-family: 'roboto', sans-serif;
-  font-family: 'shrikhand',cursive;
+  font-family: "roboto", sans-serif;
+  font-family: "shrikhand", cursive;
   margin-bottom: 20px;
   margin-top: 30px;
+  width: 88%;
 }
 
 body {
@@ -79,8 +75,9 @@ body {
 
 .arrow {
   position: absolute;
-  top: 1%;
+  top: 5%;
   font-size: 1.2rem;
+  left: 34px;
 }
 
 .banner {
@@ -88,17 +85,20 @@ body {
 }
 
 .fa-heart {
-  position: absolute;
-  top: 53%;
-  left: 95%;
+  position: relative;
+  top: 25px;
+  left: -33px;
 }
 
 .title_menu {
+  display: flex;
+  justify-content: center;
   font-size: 2rem;
   font-style: italic;
   font-weight: bold;
-  font-family: 'roboto', sans sérif;
-  font-family: 'shrikhand',cursive;
+  font-family: "roboto", sans-serif;
+  font-family: "shrikhand", cursive;
+  padding-right: 8px;
 }
 
 .carte_menu {
@@ -106,17 +106,16 @@ body {
 }
 
 h2 {
-  font-family: 'roboto',sans-serif;
+  font-family: "roboto", sans-serif;
   font-size: 1rem;
 }
 
 .button {
   background-color: white;
   border: 1px solid white;
-  border-radius: 31px;
+  border-radius: 18px;
   margin-top: 10px;
-  -webkit-box-shadow: -1px -1px 2px -1px gray;
-          box-shadow: -1px -1px 2px -1px gray;
+  box-shadow: -1px -1px 2px -1px gray;
   width: 90%;
 }
 
@@ -128,21 +127,17 @@ p.menu_price {
 
 .button__commander {
   background-color: #FF79DA;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   border: 1px solid;
   width: 60%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-top: 20px;
   margin-bottom: 20px;
   text-decoration: none;
   border-radius: 50px;
   height: 36px;
   line-height: 2;
-  margin-left: 65px;
+  margin-left: 64px;
 }
 
 .menu_plat {
@@ -169,4 +164,5 @@ footer {
   color: white;
   text-decoration: none;
 }
+
 /*# sourceMappingURL=page_menu.css.map */
