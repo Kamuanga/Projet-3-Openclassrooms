@@ -54,7 +54,10 @@ table {
 }
 
 h2 {
-  font-family: "shrikhand", sans-serif;
+  font-family: "roboto", sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 1rem;
 }
 
 header {
@@ -143,10 +146,6 @@ h1 {
   line-height: 39px;
   background-color: #9356DC;
   color: white;
-}
-
-h2 {
-  margin-bottom: 20px;
 }
 
 .restaurant {
